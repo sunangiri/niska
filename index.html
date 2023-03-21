@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-danger fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">KPOP Store</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,35 +28,27 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#product">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- Header-->
-    <!-- <header class="bg-danger py-5">
-      <div class="container px-4 px-lg-5 my-5">
-        <div class="text-center text-white">
-          <h1 class="display-4 fw-bolder">Welcome to KPOP Store</h1>
-          <p class="lead fw-normal text-white-50 mb-0"></p>
-        </div>
-      </div>
-    </header> -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <!-- header -->
+    <div id="carouselExampleControls" class="carousel slide text-center" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <h2 class="text-capitalize text-white">Best Seller</h2>
-          <h1 class="text-uppercase py-2 fw-bold text-white">NCT DREAM - 1st Single Album</h1>
-          <a href="https://shp.ee/z65r7wy" class="btn mt-3 text-white text-uppercase">Buy Now</a>
+          <h2 class="text-capitalize text-danger">Best Seller</h2>
+          <h1 class="text-uppercase py-2 fw-bold text-danger">NCT 127 - 7th Album</h1>
+          <a href="https://shp.ee/ijd9jgg" class="btn mt-3 text-danger text-uppercase">Buy Now</a>
         </div>
         <div class="carousel-item">
-          <h2 class="text-capitalize text-white">Low Price</h2>
-          <h1 class="text-uppercase py-2 fw-bold text-white">nct 127 - 4th Album</h1>
-          <a href="https://shp.ee/iqyjjug" class="btn mt-3 text-white text-uppercase">Buy Now</a>
+          <h2 class="text-capitalize text-danger">Low Price</h2>
+          <h1 class="text-uppercase py-2 fw-bold text-danger">nct 127 - 4th Album</h1>
+          <a href="https://shp.ee/iqyjjug" class="btn mt-3 text-danger text-uppercase">Buy Now</a>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -69,8 +61,9 @@
       </button>
     </div>
     <!-- Section-->
-    <section class="py-5">
+    <section id="product" class="py-5">
       <div class="container px-4 px-lg-5 mt-5">
+        <h1>Product</h1>
         <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
           <div class="col mb-5">
             <div class="card h-100">
@@ -190,7 +183,7 @@
                   <!-- Product name-->
                   <h5 class="fw-bolder">NCT 127 - 7th Album</h5>
                   <!-- Product price-->
-                  Rp. 150.000 - Rp. 300.000
+                  Rp. 300.000
                 </div>
               </div>
               <!-- Product actions-->
@@ -247,6 +240,24 @@
         </div>
       </div>
     </section>
+    <!-- about us -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row gy-lg-5 align-items-center">
+          <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+            <div class="pt-3 pb-5">
+              <h2 class="position-relative d-inline-block ms-4">About</h2>
+            </div>
+            <p class="lead text-muted">KPOP Store</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque saepe nobis quidem sint sapiente? Ea ipsa eveniet perferendis iste debitis, ipsam commodi, necessitatibus, quasi pariatur nam delectus esse maiores.</p>
+          </div>
+          <div class="col-lg-6 order-lg-0">
+            <img src="assets/banner.jpeg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of about us -->
     <!-- Footer-->
     <footer class="py-5 bg-danger">
       <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Nuniska 2023</p></div>

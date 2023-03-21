@@ -1,4 +1,20 @@
 #carouselExampleControls {
-  background-image: url(assets/paksu&ragil.jpg);
-  padding: 130px;
+  background-image: url(assets/banner.jpeg);
+  padding: 120px;
+}
+#carouselExampleControls h1 {
+  font-size: 60px;
+}
+#carouselExampleControls .btn {
+  border-color: #ff0000 !important;
+}
+section#product h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+section#product img {
+  transition: all 0.3s ease;
+}
+section#product img:hover {
+  transform: scale(1.2);
 }
